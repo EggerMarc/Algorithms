@@ -27,7 +27,6 @@ class Knapsack:
                 except:
                     IndexError
         return df
-        pass
 
 
 if __name__ == '__main__':
