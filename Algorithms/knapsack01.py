@@ -1,4 +1,3 @@
-import header
 import numpy as np
 
 class Knapsack:
@@ -36,7 +35,3 @@ if __name__ == '__main__':
 
     tryout1 = Knapsack(k,w,v)
     print(tryout1.model())
-    
-
-
-    print("Good")
