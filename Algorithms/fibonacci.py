@@ -40,12 +40,11 @@ def fib_array(n):
         pass
     else:
         raise Exception("Unrecognized sequence size")
-    print(fib)
     return fib
 
 if __name__ == "__main__":
-    print(Fibonacci(10).slowFibonacci(10))
-    ans = fib(400)
+    #print(Fibonacci(10).slowFibonacci(10))
+    ans = fib(100)
     #plt.figure()
     #plt.plot(ans)
     print(ans)
